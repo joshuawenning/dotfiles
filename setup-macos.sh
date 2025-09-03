@@ -1,7 +1,7 @@
 # Dock
 #
 # Set the default Dock size
-defaults write com.apple.dock tilesize -int 34
+defaults write com.apple.dock tilesize -int 64
 # Dissable automatically rearranging Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 # Don't show recent applications in Dock
@@ -31,13 +31,6 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.dashboard mcx-disabled -bool true
 # Show battery percentage in menu bar
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
-
-# Safari
-#
-# Enable the Develop menu and the Web Inspector in Safari
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
 
 # Kill affected apps
 
