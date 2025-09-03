@@ -12,7 +12,7 @@
 3. Clone the repo using GitHub CLI: `~/Documents/Projects/`
 
 ```
-gh repo clone advaitchaitanya/dotfiles
+gh repo clone joshuawenning/dotfiles
 ```
 
 4. Setup macOS
