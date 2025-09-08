@@ -51,6 +51,30 @@ source setup-symlinks.sh
 - [Table Plus](https://tableplus.com/)
 - [Zed](https://zed.dev/)
 
+## macOS Setup To-Do
+
+### Desktop & Dock
+- Add Downloads folder to the dock
+- Minimize windows using the "Scale Effect"
+- Turn off "Show suggested and recent apps in Dock"
+### Finder Settings
+- Add home folder
+- New Finder windows show: Documents
+- Remove "Recents" from the sidebar
+### Keyboard
+- Map the `Caps Lock` key to `Escape`
+### Mouse
+- Enable Secondary click - "Click Right Side"
+### Notifications
+- Turn off FaceTime, Home, and Messages notifications
+### Set Rectangle App as the Default Window Manager
+- Add a 16px gap between windows
+- Hide menu bar icon
+- Launch on login
+- Use "Rectangle" default shortcuts instead of "Spectacle"
+### Wallpaper
+- Set Sequoia as main wallpaper
+
 ## Acknowledgements
 Motivation and code was taken from several sources, including:
 - [@mathiasbynens](https://github.com/mathiasbynens) (Mathias Bynens) [https://github.com/mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
