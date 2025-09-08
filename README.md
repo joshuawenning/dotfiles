@@ -1,7 +1,7 @@
 # dotfiles
 > Git, macOS, Vim, and ZSH configuration files
 
-![Desktop screenshot](https://github.com/advaitchaitanya/dotfiles/blob/main/dotfiles-screenshot.jpg)
+![Desktop screenshot](https://github.com/joshuawenning/dotfiles/blob/main/dotfiles-screenshot.png)
 
 ## Prepare macOS and Symlinks
 
@@ -29,22 +29,27 @@ source setup-symlinks.sh
 
 ## Setup Ruby
 1. Install rbenv via Homebrew: `brew install rbenv ruby-build`
-2. Download a version of Ruby via rbenv (e.g., `rbenv install 3.3.0`)
+2. Download a version of Ruby via rbenv (e.g., `rbenv install 3.4.4`)
 3. Set the global version (e.g., `rbenv global 3.3.0`)
 
-See [Install Ruby On Rails on macOS 10.14 Mojave](https://gorails.com/setup/osx/10.14-mojave) for complete details.
-
 ## Install Additional Dependencies
-- Install [Node.js](https://nodejs.org/en/)
 - Install [JavaScript Standard Style](https://standardjs.com): `npm install standard --global`
 - Install [Jekyll](https://jekyllrb.com): `gem install jekyll bundler`
 - Install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher): `brew install the_silver_searcher`
 
 ## Download Third-Party Applications
+- [1Password](https://1password.com/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
+- [Chrome](https://www.google.com/chrome/)
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [ImageAlpha](https://pngmini.com)
 - [ImageOptim](https://imageoptim.com/howto.html)
-- [TextMate](https://macromates.com/)
+- [Laravel Herd](https://herd.laravel.com/)
+- [Obsidian](https://obsidian.md/)
+- [Rectangle](https://rectangleapp.com/)
+- [Slack](https://slack.com/)
+- [Table Plus](https://tableplus.com/)
+- [Zed](https://zed.dev/)
 
 ## Acknowledgements
 Motivation and code was taken from several sources, including:

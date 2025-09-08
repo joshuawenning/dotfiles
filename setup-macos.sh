@@ -35,7 +35,7 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 # Kill affected apps
 
 for app in "Dock" "Finder"; do
-	killall "${app}" > /dev/null 2>&1
+    killall "${app}" > /dev/null 2>&1
 done
 
 # Complete
