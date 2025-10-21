@@ -44,7 +44,8 @@ nmap <leader>rc :tabedit $MYVIMRC<cr>
 nmap <leader>src :source $MYVIMRC<cr>
 
 " Add theme
-syntax on
+syntax enable
+colorscheme retrobox
 
 " Go to start of word
 nmap 0 ^
@@ -77,8 +78,8 @@ set wrapmargin=0
 " Show line numbers
 set number
 
-" Show character limit
-set colorcolumn=80
+" chow character limit
+" set colorcolumn=80
 
 " Turn off backup files
 set nobackup
