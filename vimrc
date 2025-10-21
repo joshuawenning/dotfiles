@@ -78,7 +78,7 @@ set wrapmargin=0
 " Show line numbers
 set number
 
-" chow character limit
+" Show character limit
 " set colorcolumn=80
 
 " Turn off backup files
