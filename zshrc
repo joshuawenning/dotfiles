@@ -36,13 +36,14 @@ alias sites='cd /Users/joshuawenning/Library/Mobile\ Documents/com~apple~CloudDo
 # Build and serve a Jekyll site
 alias js='bundle exec jekyll serve'
 
+# List packages that were manually installed and not dependencies
+alias brew list mine='brew leaves -r'
+
 # Erase current session history
 function erase_history { local HISTSIZE=0; }
 
-
-# Herd injected PHP 8.4 configuration.
+# Herd injected PHP 8.4 configuration
 export HERD_PHP_84_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/84/"
-
 
 # Herd injected NVM configuration
 export NVM_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/nvm"
@@ -50,5 +51,5 @@ export NVM_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/nvm
 
 [[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
 
-# Herd injected PHP binary.
+# Herd injected PHP binary
 export PATH="/Users/joshuawenning/Library/Application Support/Herd/bin/":$PATH
