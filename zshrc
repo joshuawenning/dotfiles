@@ -36,8 +36,11 @@ alias sites='cd /Users/joshuawenning/Library/Mobile\ Documents/com~apple~CloudDo
 # Build and serve a Jekyll site
 alias js='bundle exec jekyll serve'
 
-# List packages that were manually installed and not dependencies
-alias brew list mine='brew leaves -r'
+# List all packages
+alias bl='brew list'
+
+# List packages that were manually installed without their dependencies
+alias blm='brew leaves -r'
 
 # Erase current session history
 function erase_history { local HISTSIZE=0; }
