@@ -45,7 +45,7 @@ nmap <leader>src :source $MYVIMRC<cr>
 
 " Add theme
 syntax enable
-colorscheme retrobox
+colorscheme Tomorrow-Night
 
 " Go to start of word
 nmap 0 ^
@@ -79,7 +79,7 @@ set wrapmargin=0
 set number
 
 " Show character limit
-" set colorcolumn=80
+set colorcolumn=80
 
 " Turn off backup files
 set nobackup
