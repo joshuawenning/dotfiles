@@ -1,14 +1,14 @@
 [user]
-	email = joshuawenning@gmail.com
-	name = Joshua Wenning
+  email = joshuawenning@gmail.com
+  name = Joshua Wenning
 
 [alias]
-	aa = add .
-	b = branch
-	co = checkout
-	d = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat --color-words"
-	l = log --graph --decorate --pretty=oneline --abbrev-commit -5
-	pf = push --force
-	rb = rebase
-	rbc = rebase --continue
-	s = status
+  aa = add .
+  b = branch
+  co = checkout
+  d = !"git diff-index --quiet HEAD -- || clear; git diff --patch-with-stat --color-words"
+  l = log --graph --decorate --pretty=oneline --abbrev-commit -5
+  pf = push --force
+  rb = rebase
+  rbc = rebase --continue
+  s = status
