@@ -39,17 +39,17 @@ source setup-symlinks.sh
 
 ## Download Third-Party Applications
 - [1Password](https://1password.com/)
-- [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [Chrome](https://www.google.com/chrome/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [ImageAlpha](https://pngmini.com)
 - [ImageOptim](https://imageoptim.com/howto.html)
 - [Laravel Herd](https://herd.laravel.com/)
 - [Obsidian](https://obsidian.md/)
+- [OnyX](https://www.titanium-software.fr/en/onyx.html)
 - [Rectangle](https://rectangleapp.com/)
 - [Slack](https://slack.com/)
+- [Sublime Text](https://www.sublimetext.com/)
 - [Table Plus](https://tableplus.com/)
-- [Zed](https://zed.dev/)
 
 ## macOS Setup To-Do
 
