@@ -1,5 +1,8 @@
-# Add MacPorts
+# MacPorts
 export PATH=/opt/local/bin:$PATH
+
+# Homebrew
+export PATH="/usr/local/bin:$PATH"
 
 # Add rbenv to ZSH so that it loads every time you open a terminal
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
@@ -25,7 +28,7 @@ alias ls='ls -a'
 alias c='clear'
 
 # Remove history file
-alias remove-history='rm ~/.zsh_history'
+alias rmh='rm ~/.zsh_history'
 
 # Start a PHP server in the current directory
 alias serve='php -S localhost:8000'
@@ -37,22 +40,24 @@ alias sites='cd /Users/joshuawenning/Library/Mobile\ Documents/com~apple~CloudDo
 alias js='bundle exec jekyll serve'
 
 # List all packages
-alias bl='brew list'
+alias bls='brew list'
 
 # List packages that were manually installed without their dependencies
 alias blm='brew leaves -r'
 
 # Erase current session history
-function erase_history { local HISTSIZE=0; }
+function zero { local HISTSIZE=0; }
 
 # Herd injected PHP 8.4 configuration
 export HERD_PHP_84_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/84/"
 
 # Herd injected NVM configuration
 export NVM_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
 
 # Herd injected PHP binary
 export PATH="/Users/joshuawenning/Library/Application Support/Herd/bin/":$PATH
+
+# Herd injected PHP 8.5 configuration.
+export HERD_PHP_85_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/85/"
