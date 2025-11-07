@@ -1,8 +1,6 @@
 # dotfiles
 > Git, macOS, Vim, and ZSH configuration files
 
-![Desktop screenshot](https://github.com/joshuawenning/dotfiles/blob/main/dotfiles-screenshot.png)
-
 ## Prepare macOS and Symlinks
 
 1. Install [Homebrew](https://brew.sh)
@@ -35,7 +33,6 @@ source setup-symlinks.sh
 ## Install Additional Dependencies
 - Install [JavaScript Standard Style](https://standardjs.com): `npm install standard --global`
 - Install [Jekyll](https://jekyllrb.com): `gem install jekyll bundler`
-- Install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher): `brew install the_silver_searcher`
 
 ## Download Third-Party Applications
 - [1Password](https://1password.com/)
