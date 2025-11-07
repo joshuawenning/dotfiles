@@ -1,7 +1,7 @@
 # Dock
 #
 # Set the default Dock size
-defaults write com.apple.dock tilesize -int 64
+defaults write com.apple.dock tilesize -int 54
 # Dissable automatically rearranging Spaces based on most recent use
 defaults write com.apple.dock mru-spaces -bool false
 # Don't show recent applications in Dock
@@ -33,11 +33,9 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
 # Kill affected apps
-
 for app in "Dock" "Finder"; do
-    killall "${app}" > /dev/null 2>&1
+  killall "${app}" >/dev/null 2>&1
 done
 
 # Complete
-
 echo "Everything's setup! Now, restart your computer."
