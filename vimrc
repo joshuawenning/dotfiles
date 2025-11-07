@@ -13,7 +13,6 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
 Plugin 'airblade/vim-gitgutter'
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'sgur/vim-editorconfig'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
@@ -23,16 +22,10 @@ call vundle#end()
 
 " Load matchit.vim, but only if the user hasn't installed a newer version
 if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
-	runtime! macros/matchit.vim
+  runtime! macros/matchit.vim
 endif
 
 filetype plugin indent on
-
-" Use ag in CtrlP for listing files
-let g:ctrlp_user_command = 'ag %s -l --hidden --nocolor -g ""'
-
-" ag is fast enough that CtrlP doesn't need to cache
-let g:ctrlp_use_caching = 0
 
 " Change mapleader
 let mapleader = "\<Space>"
@@ -43,9 +36,8 @@ nmap <leader>rc :tabedit $MYVIMRC<cr>
 " Reload configuration
 nmap <leader>src :source $MYVIMRC<cr>
 
-" Add theme
-syntax enable
-colorscheme Tomorrow-Night
+" Enable theme
+syntax on
 
 " Go to start of word
 nmap 0 ^
