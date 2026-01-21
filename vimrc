@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 Plugin 'airblade/vim-gitgutter'
 Plugin 'sgur/vim-editorconfig'
+Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 
@@ -38,6 +39,7 @@ nmap <leader>src :source $MYVIMRC<cr>
 
 " Enable theme
 syntax on
+colorscheme Tomorrow-Night
 
 " Go to start of word
 nmap 0 ^
@@ -58,6 +60,10 @@ set ignorecase
 " Keep at least 4 lines below cursor
 set scrolloff=4
 
+" Change cursor shape in different modes
+let &t_SI = "\<Esc>[5 q" " INSERT mode: blinking bar
+let &t_EI = "\<Esc>[2 q" " NORMAL mode: steady block
+
 " Auto indent with soft-wrap
 set autoindent
 set breakindent
@@ -77,3 +83,7 @@ set colorcolumn=80
 set nobackup
 set noswapfile
 set nowritebackup
+
+" Recursive searching
+" Use `:find` to search for files recursively in all subdirectories
+set path=.,**
