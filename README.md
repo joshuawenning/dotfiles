@@ -30,6 +30,7 @@ source setup-symlinks.sh
 2. Install Mise version manager: `curl https://mise.run | sh`
 3. Install Ruby globally with Mise: `mise use -g ruby@3`
 4. Install Rails: `gem install rails`
+5. Install WEBrick: `gem install webrick`
 
 ## Install Additional Dependencies
 - Install [JavaScript Standard Style](https://standardjs.com): `npm install standard --global`

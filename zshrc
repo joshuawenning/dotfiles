@@ -30,11 +30,11 @@ alias c='clear'
 # Remove history file
 alias rmh='rm ~/.zsh_history'
 
-# Start a PHP server in the current directory
-alias serve='php -S localhost:8000'
+# Start a Ruby server in the current directory
+alias serve='ruby -run -e httpd -- . -p 8000'
 
-# Go to `Sites` directory on iCloud Drive
-alias sites='cd /Users/joshuawenning/Library/Mobile\ Documents/com~apple~CloudDocs/Sites/'
+# Go to `iCloud Drive` directory
+alias cloud='cd /Users/joshuawenning/Library/Mobile\ Documents/com~apple~CloudDocs'
 
 # Build and serve a Jekyll site
 alias js='bundle exec jekyll serve'
