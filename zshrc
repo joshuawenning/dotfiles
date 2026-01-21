@@ -4,8 +4,8 @@ export PATH=/opt/local/bin:$PATH
 # Homebrew
 export PATH="/usr/local/bin:$PATH"
 
-# Add rbenv to ZSH so that it loads every time you open a terminal
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+# Automatically load mise context
+eval "$(/Users/joshuawenning/.local/bin/mise activate zsh)"
 
 # Customize the prompt for Git
 source ~/git-prompt.sh
@@ -44,6 +44,9 @@ alias bls='brew list'
 
 # List packages that were manually installed without their dependencies
 alias blm='brew leaves -r'
+
+# Simplify Sublime Text alias
+alias sub='subl'
 
 # Erase current session history
 function zero { local HISTSIZE=0; }
