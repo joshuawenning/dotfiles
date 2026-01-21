@@ -27,14 +27,14 @@ source setup-symlinks.sh
 
 ## Install Ruby and Rails
 1. Install dependencies: `brew install openssl@3 libyaml gmp rust`
-2. Install Mise version manager: `curl https://mise.run | sh`
+2. Install [Mise version manager](https://mise.jdx.dev/): `curl https://mise.run | sh`
 3. Install Ruby globally with Mise: `mise use -g ruby@3`
 4. Install Rails: `gem install rails`
-5. Install WEBrick: `gem install webrick`
 
 ## Install Additional Dependencies
 - Install [JavaScript Standard Style](https://standardjs.com): `npm install standard --global`
 - Install [Jekyll](https://jekyllrb.com): `gem install jekyll bundler`
+- Install [WEBrick](https://github.com/ruby/webrick): `gem install webrick`
 
 ## Download Third-Party Applications
 - [1Password](https://1password.com/)
