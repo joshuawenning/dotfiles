@@ -25,10 +25,11 @@ source setup-macos.sh
 source setup-symlinks.sh
 ```
 
-## Setup Ruby
-1. Install rbenv via Homebrew: `brew install rbenv ruby-build`
-2. Download a version of Ruby via rbenv (e.g., `rbenv install 3.4.4`)
-3. Set the global version (e.g., `rbenv global 3.3.0`)
+## Install Ruby and Rails
+1. Install dependencies: `brew install openssl@3 libyaml gmp rust`
+2. Install Mise version manager: `curl https://mise.run | sh`
+3. Install Ruby globally with Mise: `mise use -g ruby@3`
+4. Install Rails: `gem install rails`
 
 ## Install Additional Dependencies
 - Install [JavaScript Standard Style](https://standardjs.com): `npm install standard --global`
@@ -41,7 +42,6 @@ source setup-symlinks.sh
 - [ImageAlpha](https://pngmini.com)
 - [ImageOptim](https://imageoptim.com/howto.html)
 - [Laravel Herd](https://herd.laravel.com/)
-- [Obsidian](https://obsidian.md/)
 - [OnyX](https://www.titanium-software.fr/en/onyx.html)
 - [Rectangle](https://rectangleapp.com/)
 - [Slack](https://slack.com/)
