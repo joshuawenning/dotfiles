@@ -39,7 +39,6 @@ nmap <leader>src :source $MYVIMRC<cr>
 
 " Enable theme
 syntax on
-colorscheme Tomorrow-Night
 
 " Go to start of word
 nmap 0 ^

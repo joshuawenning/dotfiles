@@ -4,9 +4,6 @@ export PATH=/opt/local/bin:$PATH
 # Homebrew
 export PATH="/usr/local/bin:$PATH"
 
-# Automatically load mise context
-eval "$(/Users/joshuawenning/.local/bin/mise activate zsh)"
-
 # Customize the prompt for Git
 source ~/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
