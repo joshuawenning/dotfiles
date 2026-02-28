@@ -1,0 +1,42 @@
+[font]
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Italic" }
+size = 16
+
+[window]
+padding.x = 8
+padding.y = 8
+option_as_alt = "Both"
+
+[colors.primary]
+foreground = "#cccccc"
+background = "#2d2d2d"
+
+[colors.cursor]
+text = "#2d2d2d"
+cursor = "#cccccc"
+
+[colors.selection]
+text = "#cccccc"
+background = "#515151"
+
+[colors.normal]
+black = "#000000"
+red = "#f2777a"
+green = "#99cc99"
+yellow = "#ffcc66"
+blue = "#6699cc"
+magenta = "#cc99cc"
+cyan = "#66cccc"
+white = "#ffffff"
+
+[colors.bright]
+black = "#000000"
+red = "#f2777a"
+green = "#99cc99"
+yellow = "#ffcc66"
+blue = "#6699cc"
+magenta = "#cc99cc"
+cyan = "#66cccc"
+white = "#ffffff"
