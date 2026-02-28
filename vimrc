@@ -26,6 +26,17 @@ if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
   runtime! macros/matchit.vim
 endif
 
+" Enable truecolor
+set termguicolors
+
+" Enable syntax highlighting and set color scheme
+syntax on
+colorscheme Tomorrow-Night
+
+" Force Underlined link color to match theme
+autocmd ColorScheme * hi Underlined gui=bold guifg=#c5c8c6
+
+" Adapt behavior according to file type
 filetype plugin indent on
 
 " Change mapleader
@@ -55,6 +66,9 @@ set laststatus=2
 
 " Ignore case of search
 set ignorecase
+
+" Enable mouse support
+set mouse=a
 
 " Keep at least 4 lines below cursor
 set scrolloff=4
@@ -86,3 +100,14 @@ set nowritebackup
 " Recursive searching
 " Use `:find` to search for files recursively in all subdirectories
 set path=.,**
+
+" Hide the Netrw banner
+let g:netrw_banner = 0
+
+" Adjust window size for splits
+let g:netrw_winsize = 30
+
+" Leader dd: open Netrw in the directory of the current file
+" Leader da: open Netrw in the current working directory
+nnoremap <leader>dd :Lexplore %:p:h<CR>
+nnoremap <Leader>da :Lexplore<CR>
