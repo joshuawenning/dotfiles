@@ -4,16 +4,25 @@ export PATH=/opt/local/bin:$PATH
 # Homebrew
 export PATH="/usr/local/bin:$PATH"
 
+# Sublime
+export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+
+# rbenv
+eval "$(rbenv init - zsh)"
+
 # Customize the prompt for Git
 source ~/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-precmd () { __git_ps1 "%m" "%% " " %s " }
+precmd () { __git_ps1 "" "~ " "%s " }
 
 # Edit
 alias rc='vim ~/.zshrc'
 
 # Reload
 alias src='source ~/.zshrc'
+
+# List long format
+alias lsa='ls -la'
 
 # Git
 alias g='git'
@@ -23,6 +32,12 @@ alias ls='ls -a'
 
 # Clear screen
 alias c='clear'
+
+# Vim
+alias v='vim'
+
+# Rails
+alias br='bin/rails'
 
 # Remove history file
 alias rmh='rm ~/.zsh_history'
