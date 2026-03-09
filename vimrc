@@ -48,9 +48,6 @@ nmap <leader>rc :tabedit $MYVIMRC<cr>
 " Reload configuration
 nmap <leader>src :source $MYVIMRC<cr>
 
-" Enable theme
-syntax on
-
 " Go to start of word
 nmap 0 ^
 
@@ -105,7 +102,7 @@ set path=.,**
 let g:netrw_banner = 0
 
 " Adjust window size for splits
-let g:netrw_winsize = 30
+let g:netrw_winsize = 20
 
 " Leader dd: open Netrw in the directory of the current file
 " Leader da: open Netrw in the current working directory
