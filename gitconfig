@@ -12,3 +12,5 @@
   rb = rebase
   rbc = rebase --continue
   s = status
+[http]
+	postBuffer = 524288000
