@@ -13,6 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
 Plugin 'airblade/vim-gitgutter'
+Plugin 'nordtheme/vim'
 Plugin 'sgur/vim-editorconfig'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
@@ -31,7 +32,7 @@ set termguicolors
 
 " Enable syntax highlighting and set color scheme
 syntax on
-colorscheme Tomorrow-Night
+colorscheme nord
 
 " Force Underlined link color to match theme
 autocmd ColorScheme * hi Underlined gui=bold guifg=#c5c8c6
