@@ -1,32 +1,14 @@
-# MacPorts
-export PATH=/opt/local/bin:$PATH
-
 # Homebrew
 export PATH="/usr/local/bin:$PATH"
+
+# Mise
+eval "$(~/.local/bin/mise activate zsh)"
 
 # Sublime
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
 
-# rbenv
-eval "$(rbenv init - zsh)"
-
 # OpenCode
 export PATH=/Users/joshuawenning/.opencode/bin:$PATH
-
-# Herd injected NVM configuration
-export NVM_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
-
-# Herd injected PHP binary
-export PATH="/Users/joshuawenning/Library/Application Support/Herd/bin/":$PATH
-
-# Herd injected PHP 8.4 configuration
-export HERD_PHP_84_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/84/"
-
-# Herd injected PHP 8.5 configuration
-export HERD_PHP_85_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/85/"
-export PATH="$HOME/.local/bin:$PATH"
 
 # Customize the prompt for Git
 source ~/git-prompt.sh
@@ -80,3 +62,9 @@ alias blm='brew leaves -r'
 
 # Simplify Sublime Text alias
 alias sub='subl'
+
+# Herd injected PHP 8.4 configuration
+export HERD_PHP_84_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/84/"
+
+# Herd injected PHP binary
+export PATH="/Users/joshuawenning/Library/Application Support/Herd/bin/":$PATH
