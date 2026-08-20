@@ -1,7 +1,7 @@
 [font]
-normal = { family = "IBM Plex Mono", style = "Regular" }
-bold = { family = "IBM Plex Mono", style = "Bold" }
-italic = { family = "IBM Plex Mono", style = "Italic" }
+normal = { family = "Ioskeley Mono", style = "Regular" }
+bold = { family = "Ioskeley Mono", style = "Bold" }
+italic = { family = "Ioskeley Mono", style = "Italic" }
 size = 16
 
 [window]

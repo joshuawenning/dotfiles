@@ -63,6 +63,9 @@ alias blm='brew leaves -r'
 # Simplify Sublime Text alias
 alias sub='subl'
 
+# Attach to first Tmux session
+alias ta='tmux attach -t 0'
+
 # Herd injected PHP 8.4 configuration
 export HERD_PHP_84_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/84/"
 
