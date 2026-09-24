@@ -32,3 +32,8 @@ new_workspace = "prefix+shift+c"
 close_workspace = "prefix+shift+k"
 previous_workspace = "alt+up"
 next_workspace = "alt+down"
+
+[ui]
+pane_borders = "auto"
+pane_outer_borders = false
+pane_gaps = true
