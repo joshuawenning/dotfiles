@@ -71,3 +71,11 @@ export HERD_PHP_84_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Suppor
 
 # Herd injected PHP binary
 export PATH="/Users/joshuawenning/Library/Application Support/Herd/bin/":$PATH
+
+
+# Herd injected PHP 8.6 configuration.
+export HERD_PHP_86_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/86"
+
+
+# Herd injected PHP 8.5 configuration.
+export HERD_PHP_85_INI_SCAN_DIR="/Users/joshuawenning/Library/Application Support/Herd/config/php/85"
