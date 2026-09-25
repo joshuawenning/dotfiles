@@ -5,8 +5,8 @@ italic = { family = "Ioskeley Mono", style = "Italic" }
 size = 16
 
 [window]
-padding.x = 0
-padding.y = 0
+padding.x = 8
+padding.y = 8
 option_as_alt = "Both"
 
 [colors.primary]

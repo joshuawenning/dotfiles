@@ -36,4 +36,6 @@ next_workspace = "alt+down"
 [ui]
 pane_borders = "auto"
 pane_outer_borders = false
-pane_gaps = true
+
+[theme]
+name = "nord"
